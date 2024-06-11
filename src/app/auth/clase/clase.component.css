@@ -1,0 +1,53 @@
+h2{
+    font-family: cursive;
+}
+.servicio{
+    border-top: 2px solid rgb(134, 118, 118);
+}
+.card img{
+    width: 100%;
+}
+.card{
+    max-width: 250px;
+    min-width: 250px;
+}
+.row{
+    padding: 0px 200px;
+    align-items: center;
+}
+h4{
+    font-family: serif;
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.boton {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .boton:hover {
+    background-color: #f1ff85;
+    color: rgb(0, 0, 0);
+  }
+
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

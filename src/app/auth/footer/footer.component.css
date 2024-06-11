@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", Arial, Tahoma, sans-serif;
+}
+footer{
+    height: 50px;
+    padding-top: 8px;
+}
+a{
+    margin: 5px;
+}
+@media all and (max-width:575px) {
+    .horarios{
+        border-top: white 2px solid;
+        border-bottom: white 2px solid;
+        padding: 15px 0px;
+    }
+}

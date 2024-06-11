@@ -1,0 +1,86 @@
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+ .contenedor img{
+    height: 510px;
+    max-width: 100%;
+ }
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+}
+.centrado h2{
+    font-size: 35px;
+    color: white;
+}
+button{
+    border-radius: 20px;
+}
+.card img{
+    width: 100%; height: 420px;
+}
+.card{
+    background-color: beige;
+}
+.carousel{
+    width: 100%;
+    background-color: black;
+    margin-top: 25px;
+}
+.suscripcion{
+    background-color: beige;
+}
+h4{
+    font-family: serif;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.grid{
+    background-color: bisque;
+}
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-right: 30px;
+    padding: 5px;
+    flex: 1;
+    background-color: transparent;
+}
+
+form button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.card2 img{
+    width: 100%;
+    min-height: 360px;
+    max-height: 360px;
+    max-width: 300px;
+}
+@media all and (max-width:540px) {
+    form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,37 @@
+.digital{
+    border-top: 2px solid rgb(134, 118, 118);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+
+}
+.contenedor img{
+    width: 100%;
+    border-radius: 15px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    width: 100%;
+    padding: 10px;
+}
+h2{
+    font-size: 35px;
+    font-family: cursive;
+}
+h4{
+    font-size: 20px;
+    font-family: serif;
+}
+

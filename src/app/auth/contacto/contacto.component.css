@@ -1,0 +1,43 @@
+.contacto{
+    border-top: 2px solid rgb(134, 118, 118);
+}
+
+form, .mapa {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.formulario{
+    background-color: bisque;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%; border-radius: 25px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc; 
+    outline: none; 
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-bottom: 1px solid #000000;
+}
